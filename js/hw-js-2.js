@@ -80,6 +80,7 @@
 
 // 9.3 удалите у объекта user свойство "city of residence".
 
+
 // let user = {
 //     name: "John";
 //     age: 25;
