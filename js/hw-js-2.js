@@ -55,27 +55,27 @@
 // age – числовым, а для isAdmin – булевым.
 
 // let user = {
-//     name: "John";
-//     age: 25;
-//     isAdmin:  NaN;
+//     name: "John",
+//     age: 25,
+//     isAdmin:  NaN
 // };
 
 
 // 9.1 Добавьте объекту user свойство city of residence. Обратите внимание на то, как правильно добавлять такие методы: через точку или с помощью квадратных скобок.
 
 // let user = {
-//     name: "John";
-//     age: 25;
-//     isAdmin: true;
-//     ['city of residence'] = "Samara";
+//     name: "John",
+//     age: 25,
+//     isAdmin: true,
+//     ['city of residence'] = "Samara"
 // };
 
 // 9.2 Измените у объекта user свойство age на любое другое новое значение.
 
 // let user = {
-//     name: "John",;
-//     age: 25;
-//     isAdmin: true;
+//     name: "John",
+//     age: 25,
+//     isAdmin: true
 // }
 // user.age = 27;
 
@@ -83,12 +83,12 @@
 
 
 // let user = {
-//     name: "John";
-//     age: 25;
-//     isAdmin: true;
-//     city of residence = "Samara";
+//     name: "John",
+//     age: 25,
+//     isAdmin: true,
+//     city of residence = "Samara",
 //    };
-// //    delete user [city of residence];
+//    Reflect.deleteProperty (user,  'city of residence'); 
 
 //  9.4 Создайте переменную info, присвойте ей значение с помощью метода prompt() "Какую информацию хотите узнать о пользователе?". Далее обращайтесь к свойствам объекта userчерез переменную info. Выведите результат с помощью alert.
 
