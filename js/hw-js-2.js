@@ -86,9 +86,9 @@
 //     name: "John",
 //     age: 25,
 //     isAdmin: true,
-//     city of residence = "Samara",
+//     city of residence: "Samara",
 //    };
-//    Reflect.deleteProperty (user,  'city of residence'); 
+//    Reflect.deleteProperty(user, 'city of residence'); 
 
 //  9.4 Создайте переменную info, присвойте ей значение с помощью метода prompt() "Какую информацию хотите узнать о пользователе?". Далее обращайтесь к свойствам объекта userчерез переменную info. Выведите результат с помощью alert.
 
@@ -101,3 +101,5 @@
 
 // let name = prompt ('Как вас зовут?');
 // alert (`Привет ${name}!`);
+
+

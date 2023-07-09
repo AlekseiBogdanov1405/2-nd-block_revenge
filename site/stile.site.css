@@ -42,6 +42,11 @@ body {
   width: 481px;
   margin-bottom: 12px;
 }
+
+.top_text_seasons {
+  max-width: 584px;
+}
+
 .top_content {
   display: flex;
   flex-direction: column;
@@ -95,4 +100,87 @@ body {
 }
 .menu_game_item_3 {
   background-image: url(img/img3.jpg);
-}/*# sourceMappingURL=styleplay.css.map */
+}
+
+.seasons {
+  color: #FFFFFF;
+  display: flex;
+  align-content: center;
+  padding-bottom: 233px;
+}
+
+.seasons_content {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 32px;
+}
+
+.seasons_logo {
+  padding-top: 150px;
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  width: 485px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    min-height: 735px;
+  }
+  .top_content {
+    align-items: center;
+  }
+  .top_heading {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 100%;
+    padding-top: 238px;
+    justify-content: center;
+  }
+  .top_text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .top_text_seasons {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .menu_game_item {
+    width: 343px;
+  }
+  .button {
+    align-items: center;
+  }
+  .seasons {
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+  }
+  .seasons_content {
+    align-items: center;
+    padding-top: 78px;
+  }
+  .seasons_logo {
+    width: 344px;
+    height: 236px;
+  }
+
+
+}
+
+
+
+
+/*# sourceMappingURL=styleplay.css.map */
