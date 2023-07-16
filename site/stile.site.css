@@ -67,6 +67,10 @@ body {
   width: 234px;
   box-sizing: border-box;
 }
+.button:hover {
+  background: #EB443F;
+}
+
 
 .menu_game {
   display: flex;
@@ -92,6 +96,12 @@ body {
   border-radius: 18px;
   align-items: flex-end;
 }
+
+.menu_game_item:hover {
+  border: 3px solid #44D2FF;
+  transition: all 0.1s;
+}
+
 .menu_game_item_1 {
   background-image: url(img/img1.jpg);
 }

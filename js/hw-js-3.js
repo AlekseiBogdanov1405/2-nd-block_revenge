@@ -40,50 +40,50 @@
 
 
 // // Задание 5
-// let month = String(prompt(`какой сечас месяц`));
+let month = String(prompt(`какой сечас месяц`));
 
                                
-// switch (month) { 
-//     case 'декабрь':
-//       console.log('сейчас зима');
-//       break;
-//     case 'январь':
-//       console.log('сейчас зима');
-//        break;  
-//     case 'февараль':
-//        console.log('сейчас зима');
-//      break;
-//     case 'март':
-//        console.log('сейчас весна');
-//       break;
-//     case 'апрель':
-//        console.log('сейчас весна');
-//       break;
-//     case 'май':
-//        console.log('сейчас весна');
-//       break;
-//     case 'июнь':
-//        console.log('сейчас лето');
-//       break;
-//     case 'июль':
-//        console.log('сейчас лето');
-//       break;
-//     case 'август':
-//        console.log('сейчас лето');
-//       break; 
-//     case 'сентябрь':
-//        console.log('сейчас осень');
-//       break;
-//     case 'октябрь':
-//        console.log('сейчас осень');
-//       break;
-//     case 'ноябрь':
-//        console.log('сейчас осень');
-//       break;
+switch (month) { 
+    case 'декабрь' && `12`:
+      console.log('сейчас зима');
+      break;
+    case 'январь':
+      console.log('сейчас зима');
+       break;  
+    case 'февараль':
+       console.log('сейчас зима');
+     break;
+    case 'март':
+       console.log('сейчас весна');
+      break;
+    case 'апрель':
+       console.log('сейчас весна');
+      break;
+    case 'май':
+       console.log('сейчас весна');
+      break;
+    case 'июнь':
+       console.log('сейчас лето');
+      break;
+    case 'июль':
+       console.log('сейчас лето');
+      break;
+    case 'август':
+       console.log('сейчас лето');
+      break; 
+    case 'сентябрь':
+       console.log('сейчас осень');
+      break;
+    case 'октябрь':
+       console.log('сейчас осень');
+      break;
+    case 'ноябрь':
+       console.log('сейчас осень');
+      break;
 
-//       default:
-//         console.log(`ввел что-то не то`);
-//        break;
+      default:
+        console.log(`ввел что-то не то`);
+       break;
 
-// }
+}
 
